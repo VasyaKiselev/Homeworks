@@ -1,0 +1,1 @@
+print("Hello, Sekai! (Sekai = World)")
