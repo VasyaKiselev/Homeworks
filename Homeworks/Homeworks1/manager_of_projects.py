@@ -14,12 +14,14 @@ def creat(file_obj):
     
     print(f"\nВсего сохранено заметок: {note_count}")
 
-def delete_all(file_obj):
-    file_obj.seek(0)
-    file_obj.truncate()
-    print("Все заметки удалены")
+def delete(file_obj):
+    with open("file_obj", "r+") as file:
+        s = file.readline()
+        print("Введите то, что нужно удалить...")
+        word = input()
+        delStr = s.replace(word, "")
 
-def search1(file_obj):
+def search(file_obj):
     file_obj.seek(0)
     notes = file_obj.readlines()
     
@@ -72,6 +74,7 @@ def show(f):
 
 def exit():
     print("Closing programm...")
+
 def interface():
     print("Hello, dear user! A'm manager of your notes.")
     while True:
