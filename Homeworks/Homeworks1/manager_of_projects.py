@@ -14,6 +14,7 @@ def creat(file_obj):
     
     print(f"\nВсего сохранено заметок: {note_count}")
 
+<<<<<<< HEAD
 def delete(file_obj):
     with open("file_obj", "r+") as file:
         s = file.readline()
@@ -22,6 +23,14 @@ def delete(file_obj):
         delStr = s.replace(word, "")
 
 def search(file_obj):
+=======
+def delete_all(file_obj):
+    file_obj.seek(0)
+    file_obj.truncate()
+    print("Все заметки удалены")
+
+def search1(file_obj):
+>>>>>>> cc9bed676ae0f8c28b7ecaf8bf5dc957fe799876
     file_obj.seek(0)
     notes = file_obj.readlines()
     
