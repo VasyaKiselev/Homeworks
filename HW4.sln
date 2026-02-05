@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Homeworks", "Homeworks", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW4", "Homeworks\HW4\HW4.csproj", "{48F5F8A7-8350-404E-AB84-1215A3A5B876}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW5", "Homeworks\HW5\HW5.csproj", "{EB157354-3ADE-45F4-937F-1FC148A0F7F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,11 +31,24 @@ Global
 		{48F5F8A7-8350-404E-AB84-1215A3A5B876}.Release|x64.Build.0 = Release|Any CPU
 		{48F5F8A7-8350-404E-AB84-1215A3A5B876}.Release|x86.ActiveCfg = Release|Any CPU
 		{48F5F8A7-8350-404E-AB84-1215A3A5B876}.Release|x86.Build.0 = Release|Any CPU
+		{EB157354-3ADE-45F4-937F-1FC148A0F7F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB157354-3ADE-45F4-937F-1FC148A0F7F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB157354-3ADE-45F4-937F-1FC148A0F7F9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EB157354-3ADE-45F4-937F-1FC148A0F7F9}.Debug|x64.Build.0 = Debug|Any CPU
+		{EB157354-3ADE-45F4-937F-1FC148A0F7F9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EB157354-3ADE-45F4-937F-1FC148A0F7F9}.Debug|x86.Build.0 = Debug|Any CPU
+		{EB157354-3ADE-45F4-937F-1FC148A0F7F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB157354-3ADE-45F4-937F-1FC148A0F7F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB157354-3ADE-45F4-937F-1FC148A0F7F9}.Release|x64.ActiveCfg = Release|Any CPU
+		{EB157354-3ADE-45F4-937F-1FC148A0F7F9}.Release|x64.Build.0 = Release|Any CPU
+		{EB157354-3ADE-45F4-937F-1FC148A0F7F9}.Release|x86.ActiveCfg = Release|Any CPU
+		{EB157354-3ADE-45F4-937F-1FC148A0F7F9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{48F5F8A7-8350-404E-AB84-1215A3A5B876} = {6CD7D166-2742-F95C-275C-19309A544D55}
+		{EB157354-3ADE-45F4-937F-1FC148A0F7F9} = {6CD7D166-2742-F95C-275C-19309A544D55}
 	EndGlobalSection
 EndGlobal
